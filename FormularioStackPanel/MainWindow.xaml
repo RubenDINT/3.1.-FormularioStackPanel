@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:FormularioStackPanel"
         mc:Ignorable="d"
         Title="Formulario Stack Panel"
-        Height="339.196"
+        Height="400"
         Width="786.432"
         MinWidth="500"
-        MinHeight="200"
         MaxWidth="900">
     <Grid Margin="0,0,2,55">
         <StackPanel Margin="20,20,20,-56">
@@ -19,13 +18,13 @@
                                          StartPoint="0.5,0">
                         <GradientStop Color="White"
                                       Offset="0.967" />
-                        <GradientStop Color="#FF00FF0C"
+                        <GradientStop Color="#FF01B409"
                                       Offset="0.007" />
                     </LinearGradientBrush>
                 </StackPanel.Background>
                 <Label FontWeight="Bold"
                        FontSize="16">Nombre</Label>
-                <TextBox  MaxWidth="720" Margin="10,0,10,20"></TextBox> <!-- MinWidth para que se haga grande con la ventana -->
+                <TextBox  MaxWidth="720" Margin="10,0,10,20"></TextBox> 
             </StackPanel>
             <StackPanel Margin="0,0,0,20">
                 <StackPanel.Background>
@@ -33,7 +32,7 @@
                                          StartPoint="0.5,0">
                         <GradientStop Color="White"
                                       Offset="0.91" />
-                        <GradientStop Color="#FF00FFF3" />
+                        <GradientStop Color="#FF02BFB6" />
                     </LinearGradientBrush>
                 </StackPanel.Background>
                 <Label FontWeight="Bold"
@@ -47,7 +46,7 @@
                                          StartPoint="0.5,0">
                         <GradientStop Color="White"
                                       Offset="1" />
-                        <GradientStop Color="#FFE15AFF" />
+                        <GradientStop Color="#FF9900BB" />
                     </LinearGradientBrush>
                 </StackPanel.Background>
                 <Label FontWeight="Bold"
